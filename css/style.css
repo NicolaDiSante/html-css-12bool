@@ -1,0 +1,24 @@
+[class*="col-"] {
+  background-color:#fec0cb;
+  border: 1px solid black;
+  vertical-align: middle;
+  line-height: 150px;
+  text-align: center;
+}
+
+.nested [class*="col-"] {
+  padding: 10px;
+}
+
+.debug {
+  background-color: #f08080;
+  border: 1px solid white;
+}
+
+.container:first-child{
+  margin-top: 10px;
+}
+
+.container.nested {
+  margin-bottom: 10px;
+}

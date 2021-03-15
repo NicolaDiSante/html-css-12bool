@@ -22,3 +22,16 @@
 .container.nested {
   margin-bottom: 10px;
 }
+
+.col-2.debug {
+  position:relative;
+  height: 171.6px;
+}
+
+.col-2.debug div{
+  position: absolute;
+  line-height: normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
